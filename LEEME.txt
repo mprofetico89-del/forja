@@ -1,0 +1,52 @@
+FORJA — Cómo publicarla (3 minutos, gratis, para siempre)
+==========================================================
+
+Necesitas: un computador y una cuenta de GitHub (gratis).
+
+PASO 1 — Crea la cuenta
+   Ve a  https://github.com/signup
+   Si ya tienes cuenta, inicia sesión y pasa al paso 2.
+
+PASO 2 — Crea el repositorio
+   Ve a  https://github.com/new
+   - Repository name:  forja
+   - Marca:  Public
+   - Marca:  Add a README file
+   - Botón verde:  Create repository
+
+PASO 3 — Sube los archivos
+   Dentro del repo:  Add file  ->  Upload files
+   Arrastra TODOS los archivos de esta carpeta:
+       index.html
+       manifest.json
+       sw.js
+       icon-180.png
+       icon-192.png
+       icon-512.png
+   (NO subas este LEEME.txt, no hace falta)
+   Abajo:  Commit changes
+
+PASO 4 — Enciende la página
+   Pestaña  Settings  ->  menú izquierdo  Pages
+   En "Build and deployment" -> Source:  Deploy from a branch
+   Branch:  main   /  (root)   ->  Save
+   Espera 1-2 minutos y recarga esa página de Settings.
+   Te aparecerá arriba tu dirección, algo así:
+
+       https://TUUSUARIO.github.io/forja/
+
+PASO 5 — Instálala en el iPhone
+   Abre esa dirección en SAFARI (no en Chrome).
+   Botón Compartir (el cuadrito con la flecha hacia arriba)
+   ->  Añadir a pantalla de inicio  ->  Añadir
+
+   Listo. Queda como una app con su ícono, funciona SIN INTERNET
+   en el gimnasio, guarda tus pesos y suena la alerta del descanso.
+
+PASO 6 — Comprueba que quedó bien
+   Abre FORJA desde el ícono, ve a la pestaña "Guía".
+   Arriba debe aparecer un aviso VERDE que dice "Modo completo activo".
+   Si lo ves verde, todo quedó funcionando.
+
+Para actualizarla en el futuro: sube el index.html nuevo al mismo repo
+(Add file -> Upload files -> reemplaza) y listo.
